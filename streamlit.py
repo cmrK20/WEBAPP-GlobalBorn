@@ -1745,4 +1745,4 @@ html_code ="""<!DOCTYPE html>
 </body>
 </html>"""
 
-html(html_code, height=1000, scrolling=True)
+st.components.v1.html(html_code, height=1000, scrolling=True)
