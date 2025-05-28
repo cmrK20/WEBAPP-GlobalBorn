@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit.components.v1 import html
 
-<!DOCTYPE html>
+html_code ="""<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -1743,6 +1743,6 @@ from streamlit.components.v1 import html
         });
     </script>
 </body>
-</html>
+</html>"""
 
-st.components.v1.html(html_code, height=1000, scrolling=True)
+html(html_code, height=1000, scrolling=True)
